@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/fg_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_10"
+        android:gravity="center"
+        android:verticalSpacing="@dimen/margin_10"
+        android:horizontalSpacing="@dimen/margin_10"
+        android:numColumns="auto_fit"
+        />
+</FrameLayout>

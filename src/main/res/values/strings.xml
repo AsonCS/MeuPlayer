@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Meu player</string>
+    <string name="pastas">Pastas</string>
+    <string name="albuns">Albúns</string>
+    <string name="artistas">Artistas</string>
+    <string name="organizar">Organizar</string>
+    <string name="todas">Todas</string>
+    <string name="nome_musica">Nome:</string>
+    <string name="artista_musica">\nArtista:</string>
+    <string name="albun_musica">\nAlbún:</string>
+    <string name="musicas_nesse_grupo">musicas nesse grupo</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b7921</color>
+    <color name="colorPrimaryDark">#3fde49</color>
+    <color name="colorAccent">#f12f2f</color>
+    <color name="fundo">#e0e5fa</color>
+    <drawable name="papeldeparede">@drawable/fundo_sol</drawable>
+
+    <color name="tranparent">#0000</color>
+</resources>

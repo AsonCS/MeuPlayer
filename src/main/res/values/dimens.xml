@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_muito_grande">22sp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="font_grande">18sp</dimen>
+    <dimen name="font_boa">16sp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+</resources>

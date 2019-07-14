@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Botões do player -->
+    <style name="BotaoPlayer">
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:background">@color/tranparent</item>
+    </style>
+
+    <!-- Cards das musicas -->
+    <style name="CardMusicas">
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10</item>
+        <item name="android:layout_marginRight">@dimen/margin_10</item>
+    </style>
+
+</resources>

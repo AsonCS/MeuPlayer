@@ -1,0 +1,65 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingRight="@dimen/margin_10"
+    android:paddingLeft="@dimen/margin_10"
+    android:paddingBottom="@dimen/margin_10"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/np_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="@dimen/font_muito_grande"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/np_progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <ImageButton
+            android:id="@+id/np_btn_ant"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="@style/BotaoPlayer"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/np_btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="@style/BotaoPlayer"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/np_btn_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="@style/BotaoPlayer"
+            android:src="@android:drawable/ic_media_next" />
+
+        <ImageButton
+            android:id="@+id/np_btn_off"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:background="@color/fundo"
+            style="@style/BotaoPlayer"
+            android:src="@android:drawable/ic_lock_power_off" />
+    </LinearLayout>
+</LinearLayout>

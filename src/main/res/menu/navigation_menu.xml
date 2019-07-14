@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nm_group_musica">
+
+        <item android:title="@string/organizar"
+            android:enabled="false"/>
+
+        <item
+            android:id="@+id/m_todas"
+            android:title="@string/todas"
+            android:icon="@drawable/imnav_playlists"/>
+
+        <item android:id="@+id/m_pastas"
+            android:title="@string/pastas"
+            android:icon="@drawable/imnav_pastas"/>
+
+        <item android:id="@+id/m_albuns"
+            android:title="@string/albuns"
+            android:icon="@drawable/imnav_album"/>
+
+        <item android:id="@+id/m_artistas"
+            android:title="@string/artistas"
+            android:icon="@drawable/imnav_artistas"/>
+
+    </group>
+
+</menu>
